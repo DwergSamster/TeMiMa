@@ -1,0 +1,192 @@
+/* Made by Sam van Hoof */
+
+body{
+    background-color: azure;
+    font: 15px Courier;
+    text-align: center;
+    line-height: 100px;
+}
+
+.knop-blauw{
+    background: linear-gradient(to bottom, #15C4F2, #D2F6FF);
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font: 20px fantasy;
+    border: 7% solid black;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.knop-blauw:hover{
+    background: yellow;
+    cursor: pointer;
+}
+
+.knop-geel{
+    background: linear-gradient(to bottom, #FFb725, #FFE9BD);
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font: 20px fantasy;
+    border: 7% solid black;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.knop-geel:hover{
+    background: yellow;
+    cursor: pointer;
+}
+
+.knop-rood{
+    background: linear-gradient(to bottom, #FA5E81, #FFD7E0);
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font:20px fantasy;
+    border: 7% solid black;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.knop-rood:hover{
+    background: yellow;
+    cursor: pointer;
+}
+
+.progress-container{
+    width: 100%;
+    height: 5%;
+    background: aqua;
+}
+.progress-bar{
+    z-index: 0;
+    height: 5%;
+    background: aqua;
+    width: 0;
+    position: fixed;
+}
+
+.doosje{
+    width: auto;
+    height: 100%;
+    border: 5px solid aqua;
+    padding: 2%;
+    margin: 0;
+    line-height: 200%;
+}
+
+.boter-kaas-en-eieren{
+    background: linear-gradient(to bottom, #15C4F2, #D2F6FF);
+    display: block;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    font: 15px Courier;
+    border-radius: 10px;
+    padding: 0;
+    padding-right: 2%;
+    margin: 1%;
+    margin-left: 15%;
+}
+
+.galgje{
+    background: linear-gradient(to bottom, #FFb725, #FFE9BD);
+    display: block;
+    text-align: center;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    font: 15px Courier;
+    border-radius: 10px;
+    padding: 0;
+    padding-right: 2%;
+    margin: 1%;
+    margin-left: 15%;
+}
+
+.steen-papier-schaar{
+    background: linear-gradient(to bottom, #FA5E81, #FFD7E0);
+    display: block;
+    text-align: center;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    font: 15px Courier;
+    border-radius: 10px;
+    padding: 0;
+    padding-right: 2%;
+    margin: 1%;
+    margin-left: 15%;
+}
+
+.meer-spellen{ 
+    background: linear-gradient(to bottom, #30d1b4, #82ffe8);
+    display: block;
+    text-align: center;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    font: 15px Courier;
+    border-radius: 10px;
+    padding: 0;
+    padding-right: 2%;
+    margin: 1%;
+    margin-left: 15%;
+}
+
+.boter-kaas-en-eieren:hover{
+        cursor: pointer;
+}
+
+.galgje:hover{
+    cursor:pointer
+}
+
+.steen-papier-schaar:hover{
+    cursor:pointer
+}
+
+.meer-spellen:hover{
+    cursor: pointer;
+}
+
+.knop-terug{
+    background: yellow;
+    display: block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font: 150% fantasy;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.knop-terug:hover{
+    cursor:pointer;
+    font: 150% fantasy;
+}
+
+.tekst{
+    line-height: 50px;
+    font: 100% courier;
+    border: 5px solid aqua;
+    margin: 1%;
+    padding: 1%;
+}
+
+.onderaan{
+    margin-top: 5%;
+}
+
+.link:hover{
+    cursor:pointer
+}
